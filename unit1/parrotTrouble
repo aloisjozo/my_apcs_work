@@ -1,0 +1,20 @@
+public boolean parrotTrouble(boolean talking, int hour) {
+  return(talking && (hour>20 || hour<7));
+}
+
+public static voice testparrotTrouble(boolean talking, boolean, boolean correct){
+boolean result = parrotTrouble(talking, hour);
+
+System.out.print("talking" + talking + " expected:" + expected + " result:" + result + " ");
+
+if(result == expected)
+System.out.println("Correct");
+else
+Ststem.out.println("Incorrect");
+}
+
+public static voice main(String[] args){
+testparrotTrouble(true, true, true);
+testparrotTrouble(true, false, false);
+testparrotTrouble(false, false, false);
+}
