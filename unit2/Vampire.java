@@ -12,7 +12,7 @@ public class Vampire
 		
 		System.out.print("Hour: " + hour + " Awake: " + awake + " Result: " + result + " Expected: " + expected + " ");
 		
-		if(result =s= expected)
+		if(result == expected)
 		{
 			System.out.println("Expected");
 		}

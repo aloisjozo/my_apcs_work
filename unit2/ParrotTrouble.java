@@ -12,7 +12,7 @@ public class ParrotTrouble
 	{
 		boolean result = parrotTrouble(talking, hour);
 
-		System.out.print("talking:" + talking + " hour:" + hour + " result:" + correct + " ");
+		System.out.print("talking:" + talking + " hour:" + hour + " result:" + expected + " ");
 
 		if(result == correct)
 		{
