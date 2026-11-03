@@ -35,5 +35,4 @@ public static void testStartHi(String str, boolean expected)
 		testStartHi("H", false);
 		testStartHi("Hello!", false);
 	}
-
 }

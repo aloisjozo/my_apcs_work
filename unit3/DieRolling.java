@@ -5,7 +5,7 @@ public class DieRolling
 		for(int i = 0; i<20; i++)
 		{
 			int value = (int)(Math.random() * 6);
-			System.out.println(value);
+			System.out.println(value + 1);
 		}
 	}
 }
